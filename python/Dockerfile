@@ -18,3 +18,4 @@ RUN pip install psycopg2
 RUN pip install Flask-SQLAlchemy
 RUN pip install SQLAlchemy
 RUN pip install Django
+RUN pip install pymongo
