@@ -1,5 +1,6 @@
 FROM wlt184074150/python
 
+RUN echo "Asia/shanghai" > /etc/timezone;
 RUN pip install Flask
 RUN pip install python-memcached
 RUN pip install requests
